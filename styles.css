@@ -1,0 +1,61 @@
+body {
+  font-family: "Cairo", sans-serif;
+  background: #f6f8fb;
+  direction: rtl;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #003b73, #0074b7);
+}
+
+.navbar-brand, .nav-link {
+  color: white !important;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 59, 115, .75), rgba(0, 116, 183, .65)),
+  url("https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=1400") center/cover;
+  color: white;
+  padding: 90px 0;
+  border-radius: 0 0 35px 35px;
+}
+
+.card {
+  border: none;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.08);
+  overflow: hidden;
+}
+
+.card img {
+  height: 210px;
+  object-fit: cover;
+}
+
+.badge-category {
+  background: #ffb703;
+  color: #222;
+}
+
+.section-title {
+  color: #003b73;
+  font-weight: 800;
+}
+
+footer {
+  background: #002b5b;
+  color: white;
+  padding: 30px 0;
+  margin-top: 50px;
+}
+
+.btn-main {
+  background: #0074b7;
+  color: white;
+  border-radius: 25px;
+}
+
+.btn-main:hover {
+  background: #003b73;
+  color: white;
+}
